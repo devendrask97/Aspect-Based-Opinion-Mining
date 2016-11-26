@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+	ASPECT BASED OPINION MINING
+	<br>
+	<br>
+	<br>
+	<form action="inputProcessing.jsp" method="post">
+		<div>
+			<label for="category">Category</label> <select name="category">
+				<option value="movie">Movie</option>
+				<option value="restaurant">Restaurant</option>
+				<option value="smartphone">Smart-Phone</option>
+				<option value="laptop">Laptop</option>
+				<option value="other">Other..</option>
+			</select>
+		</div>
+
+		<br> <br>
+		<div>
+			<!--  
+			 <input type="file" name="file"
+				size="50" /> -->
+			<label>Review File : </label>
+			<textarea rows="20" cols="50" name="reviews">
+
+			</textarea>
+
+		</div>
+
+
+
+		<br> <br>
+		<div>
+			<label>Special Aspects : </label> <input type="text" name="aspects"
+				value="">
+		</div>
+
+		<br>
+		<div class="button">
+			<button type="submit">REVIEW</button>
+		</div>
+	</form>
+</body>
+</html>
